@@ -9,7 +9,7 @@ if (hours > 40) {
 };
 let weeks = 1;
 let total = pay;
-while (total < 1000000) {
+while (total <= 1000000) {
     weeks++;
     total += pay;
     console.log(total)
